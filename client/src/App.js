@@ -3,14 +3,14 @@ import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import  { useEffect, useState} from 'react';
-import { initContactForm } from "./contactForm"; // adjust path if needed
+import { initContactForm } from "./contactForm"; 
 
 
 
 import './index.css';
 import { initPartnersToggle } from "./logos.js";
 
-import logo from '../src/logo.jpg'; // Make sure the path is correct
+import logo from '../src/logo.jpg'; 
 import sawir from '../src/RCC1[2].jpg'
 import photo from '../src/bag1.jpg'
 import team from '../src/team.jpg'
@@ -69,7 +69,7 @@ const Navbar = () => {
   const [diamondMode, setDiamondMode] = useState(false);
   useEffect(() => {
     const cleanup = initPartnersToggle();
-    return cleanup; // ensures cleanup on unmount
+    return cleanup; 
   }, []);
   
   
@@ -199,7 +199,7 @@ const Navbar = () => {
     };
   }, []);
 
-  // Food section counter
+  
    // Food section counter
  useEffect(() => {
   function animateCounter(counter) {
@@ -413,7 +413,7 @@ useEffect(() => {
       
 
       <div className="white-side-text">
-          <h2>AID upholds high moral ground</h2>
+          <h2>BUILDING RECELIENCE, FORTERING PROGRESS</h2>
           <p>Improving the lives of those affected
 by various challenges such as conflicts,
 natural disasters and social issues.</p>
@@ -559,7 +559,7 @@ livelihoods.
         <img src={photo} alt="AID visual" className="photo" />
       </div>
       <div class="text" id="purpose">
-        <h3>Our purpose: BUILDING RECELIENCE, FORTERING PROGRESS</h3>
+        <h3>Our purpose: </h3>
         <p>
           AID empowers vulnerable communities to enhance their living standards and unlock
 their full potential. By introducing innovative solutions in WASH and ESNFI,
@@ -672,8 +672,7 @@ sustainable development
         
 </p>
       <p class="desc">
-        Oversees all community outreach and project implementation, making sure 
-        resources reach those who need them most.
+        Provides overall leadership, strategic direction, and decision-making for the organization.
 
       </p>
       <p>
@@ -691,8 +690,7 @@ sustainable development
       <h3>Abdimahad Mohamed Abdi </h3>
       <p class="role">Deputy Executive Director of AID</p>
       <p class="desc">
-        Designs and manages AID’s health programs, focusing on preventive care, 
-        nutrition, and long-term community wellness.
+        Supports the Executive Director and oversees specific functions or departments to ensure smooth operations.
 
         <p>
             <i className="fa-solid fa-phone"></i>
@@ -712,8 +710,7 @@ sustainable development
       <h3>Abdinasir Moalin Abdullahi</h3>
       <p class="role">Program Manager </p>
       <p class="desc">
-        Leads AID’s vision to bring education, healthcare, and food assistance to 
-        vulnerable communities, ensuring dignity and hope for all.
+        Plans, coordinates, and monitors programs or projects to achieve organizational goals and impact.
       </p>
 
       <p>
@@ -731,8 +728,7 @@ sustainable development
       <h3>Bashir Abdi Hashi</h3>
       <p class="role">Operations and Finance Officer</p>
       <p class="desc">
-        Develops and leads education initiatives to empower children and youth 
-        with the knowledge and skills for a brighter future.
+        Manages day-to-day operations, budgeting, and financial management to ensure efficiency and accountability.
       </p>
 
       <p>
@@ -754,13 +750,13 @@ sustainable development
 
   <div className="social-container">
   <div className="triangle" id='blue'>
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://x.com/AidforIDev" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-twitter"></i>
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/aid-for-integrated-development-aid/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin-in"></i>
     </a>
   </div>
@@ -769,13 +765,13 @@ sustainable development
 
 <div className="social-container">
   <div className="triangle" id='red'>
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://x.com/AidforIDev" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-twitter"></i>
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/aid-for-integrated-development-aid/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin-in"></i>
     </a>
   </div>
@@ -783,13 +779,13 @@ sustainable development
 
 <div className="social-container">
   <div className="triangle" id='blue'>
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://x.com/AidforIDev" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-twitter"></i>
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/aid-for-integrated-development-aid/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin-in"></i>
     </a>
   </div>
@@ -797,13 +793,13 @@ sustainable development
 
 <div className="social-container">
   <div className="triangle" id='red'>
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/share/17A2RieCsJ/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-facebook-f"></i>
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://x.com/AidforIDev" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-twitter"></i>
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/aid-for-integrated-development-aid/" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin-in"></i>
     </a>
   </div>
