@@ -63,6 +63,10 @@
     margin-top: 1rem;
   }
 }
+.don{
+  background-color: red;
+  padding: 0 20px;
+}
 
 @media (max-width: 768px) {
   .navbar-links {

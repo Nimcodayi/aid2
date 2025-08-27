@@ -382,7 +382,7 @@ useEffect(() => {
           
           
           <li><a href="#contact-section">Contact & Connect</a></li>
-          <li><a href="#donation-section">Donate</a></li>
+          <li className="don"><a href="#donation-section">Donate</a></li>
         </ul>
       </nav>
 
